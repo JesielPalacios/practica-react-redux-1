@@ -12,4 +12,4 @@ export default (state = initialState, action) => {
   }
 };
 
-export const selectActiveWord = (state) => state.palabraRef.palabra;
+export const selectActiveWord = (state) => state.palabraReducer.palabra;
