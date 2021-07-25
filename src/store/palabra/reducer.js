@@ -13,3 +13,5 @@ export default (state = initialState, action) => {
 };
 
 export const selectActiveWord = (state) => state.palabraReducer.palabra;
+
+// https://www.youtube.com/watch?v=k3vaufCIu2c
